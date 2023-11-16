@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Lesson10_style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Contact Form</h1>
+        <form action="https://api.everrest.educata.dev/echo/json" method="post">
+          <div class="form-control">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              ipsam nulla odio a sit ratione eaque ad incidunt, ut expedita
+              veniam natus harum non earum modi reiciendis, dolor quasi
+              voluptatem!
+            </p>
+
+            <div class="name-place">
+              <label for="name"></label>
+              <input type="text" id="name" name="name" placeholder="Name" />
+            </div>
+            <div class="mail-place">
+              <label for="mail"></label>
+              <input type="email" id="mail" name="mail" placeholder="Email" />
+            </div>
+            <div class="subject-place">
+              <label for="subject"></label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="text-place">
+              <label for="text"></label>
+
+              <textarea
+                name="text"
+                id="text"
+                placeholder="Your message here..."
+              ></textarea>
+            </div>
+          </div>
+        </form>
+    </main>
+  </body>
+</html>
